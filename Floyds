@@ -1,0 +1,47 @@
+using System.IO;
+
+using System;
+
+
+class Program
+
+{
+    
+static void Main()
+   
+ {
+       
+ int i,j,k=1,z=0;
+      
+  Console.WriteLine("Enter the line number to be printed");
+
+  int n=Convert.ToInt32(Console.ReadLine());
+     
+  for (i=1; i<=n; i++)
+      
+{   
+      for (j=1; j<i+1; j++)
+       
+ { 
+
+        z=k++;
+    
+    if(i==n)
+     
+  {
+           
+    
+    Console.Write(z + " "); 
+
+// k is the actual data (number) which will be printed.
+      
+ }
+       
+ }
+       
+ //Console.Write("\n"); 
+   }
+    
+  Console.ReadLine();
+}
+}
